@@ -1,0 +1,12 @@
+prefix=/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/thin/arm64
+exec_prefix=/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/thin/arm64
+libdir=/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/thin/arm64/lib
+includedir=/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/thin/arm64/include
+
+Name: mpv
+Description: mpv media player client library
+Version: 1.107.0
+Requires:
+Libs: -L${libdir} -lmpv
+Libs.private: -lavdevice -lavfilter -lswscale -lpostproc -lavformat -lbz2 -lavcodec -liconv -lswresample -lavutil -lm -lz
+Cflags: -I${includedir}
