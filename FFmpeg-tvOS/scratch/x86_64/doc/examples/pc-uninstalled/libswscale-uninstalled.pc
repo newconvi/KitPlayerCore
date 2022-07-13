@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libswscale
+includedir=/Users/ns/Downloads/tvos.mpv.player-master/contrib/FFmpeg
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 6.8.100
+Requires:  libavutil >= 57.29.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lswscale -lm
+Cflags: -I${includedir}
