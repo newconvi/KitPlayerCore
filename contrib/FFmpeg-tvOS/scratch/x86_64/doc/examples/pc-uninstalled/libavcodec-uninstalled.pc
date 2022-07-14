@@ -1,12 +1,12 @@
 prefix=
 exec_prefix=
 libdir=${pcfiledir}/../../../libavcodec
-includedir=/Users/ns/Downloads/tvos.mpv.player-master/contrib/FFmpeg
+includedir=/Users/ns/Documents/GitHub/playerPublic/contrib/FFmpeg
 
 Name: libavcodec
 Description: FFmpeg codec library
 Version: 59.38.100
 Requires:  libswresample >= 4.8.100,  libavutil >= 57.29.100
 Conflicts:
-Libs: -L${libdir} -Wl,-rpath,${libdir} -lavcodec -liconv -lm -pthread -lz -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavcodec -pthread -liconv -lm -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo
 Cflags: -I${includedir}

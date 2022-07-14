@@ -8,5 +8,5 @@ Description: mpv media player client library
 Version: 1.107.0
 Requires:
 Libs: -L${libdir} -lmpv
-Libs.private: -lavdevice -lavfilter -lswscale -lpostproc -lavformat -lbz2 -lavcodec -liconv -lswresample -lavutil -lm -lz
+Libs.private: -lavdevice -lavfilter -lswscale -lavformat -lbz2 -lavcodec -liconv -lswresample -lavutil -lm -lz
 Cflags: -I${includedir}

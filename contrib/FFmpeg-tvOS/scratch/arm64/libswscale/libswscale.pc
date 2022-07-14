@@ -1,7 +1,7 @@
-prefix=/Users/ns/Downloads/tvos.mpv.player-master/contrib/FFmpeg-tvOS/thin/arm64
+prefix=/Users/ns/Documents/GitHub/playerPublic/contrib/FFmpeg-tvOS/thin/arm64
 exec_prefix=${prefix}
-libdir=/Users/ns/Downloads/tvos.mpv.player-master/contrib/FFmpeg-tvOS/thin/arm64/lib
-includedir=/Users/ns/Downloads/tvos.mpv.player-master/contrib/FFmpeg-tvOS/thin/arm64/include
+libdir=/Users/ns/Documents/GitHub/playerPublic/contrib/FFmpeg-tvOS/thin/arm64/lib
+includedir=/Users/ns/Documents/GitHub/playerPublic/contrib/FFmpeg-tvOS/thin/arm64/include
 
 Name: libswscale
 Description: FFmpeg image rescaling library

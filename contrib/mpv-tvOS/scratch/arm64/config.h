@@ -32,6 +32,7 @@
 #define HAVE_TVOS 1
 #define HAVE_EGL_ANDROID 0
 #define HAVE_POSIX_OR_MINGW 1
+#define HAVE_SWIFT 0
 #define HAVE_UWP 0
 #define HAVE_WIN32_DESKTOP 0
 #define HAVE_WIN32_INTERNAL_PTHREADS 0
@@ -159,7 +160,7 @@
 #define HAVE_MACOS_10_14_FEATURES 0
 #define HAVE_MACOS_MEDIA_PLAYER 0
 #define HAVE_MACOS_COCOA_CB 0
-#define CONFIGURATION "./waf configure --disable-cplayer --disable-lcms2 --disable-lua --enable-libmpv-static --enable-ios-gl --enable-gl --disable-libass --enable-lgpl --out=/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/scratch/arm64 --prefix=/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/thin/arm64"
+#define CONFIGURATION "./waf configure --disable-cplayer --disable-lcms2 --disable-lua --enable-libmpv-static --enable-ios-gl --disable-libass --enable-lgpl --disable-android --disable-egl-android --disable-swift --out=/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/scratch/arm64 --prefix=/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/thin/arm64"
 #define MPV_CONFDIR "/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/thin/arm64/etc/mpv"
 #define FULLCONFIG "aligned_alloc asm atomics audiounit bsd-fstatfs build-date cplugins debug-build drmprime dummy-osd fchmod ffmpeg gl glob glob-posix gnuc iconv ios-gl lgpl libav-any libavcodec libavdevice libavutil libdl libm libmpv-static optimize osx-thread-name plain-gl posix posix-or-mingw pthreads stdatomic tvos videotoolbox-hwaccel zlib"
 

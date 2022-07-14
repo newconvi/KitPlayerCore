@@ -21,5 +21,4 @@ libavcodec/mpegaudiodec_fixed.o: src/libavcodec/mpegaudiodec_fixed.c \
   src/libavutil/aarch64/bswap.h src/libavcodec/mathops.h \
   src/libavcodec/vlc.h src/libavcodec/internal.h \
   src/libavcodec/mpegaudiodsp.h src/libavcodec/mpegaudiodecheader.h \
-  src/libavcodec/mpegaudiodata.h src/libavcodec/mpegaudio_tablegen.h \
-  src/libavcodec/mpeg4audio.h src/libavcodec/put_bits.h
+  src/libavcodec/mpegaudiodata.h src/libavcodec/mpegaudio_tablegen.h

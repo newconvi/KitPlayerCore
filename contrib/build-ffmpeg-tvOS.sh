@@ -16,22 +16,9 @@ THIN=`pwd`/$FAT/"thin"
 #FDK_AAC=`pwd`/../fdk-aac-build-script-for-iOS/fdk-aac-ios
 
 CONFIGURE_FLAGS="--enable-cross-compile --disable-debug --disable-programs --disable-indev=avfoundation \
---disable-doc --enable-pic --disable-shared --enable-static --enable-gpl --enable-videotoolbox --enable-version3 --disable-audiotoolbox"
-
-if [ "$X264" ]
-then
-	CONFIGURE_FLAGS="$CONFIGURE_FLAGS --enable-libx264"
-fi
-
-if [ "$X265" ]
-then
-    CONFIGURE_FLAGS="$CONFIGURE_FLAGS --enable-libx256"
-fi
-
-if [ "$FDK_AAC" ]
-then
-	CONFIGURE_FLAGS="$CONFIGURE_FLAGS --enable-libfdk-aac --enable-nonfree"
-fi
+--disable-doc --enable-pic --disable-shared --enable-static --enable-videotoolbox --disable-audiotoolbox --disable-encoders \
+--disable-decoders --enable-decoder=aac --enable-decoder=pcm* --enable-decoder=ac3* --enable-decoder=eac3* --enable-decoder=mp3 --enable-decoder=vp* --enable-decoder=h264 --enable-decoder=hevc --enable-decoder=opus --enable-decoder=mpeg4* \
+--disable-hwaccels --enable-hwaccel=h263_videotoolbox --enable-hwaccel=hevc_videotoolbox --enable-hwaccel=mpeg4_videotoolbox --enable-hwaccel=vp9_videotoolbox --enable-hwaccel=h264_videotoolbox"
 
 # avresample
 #CONFIGURE_FLAGS="$CONFIGURE_FLAGS --enable-avresample"

@@ -1,7 +1,7 @@
 prefix=
 exec_prefix=
 libdir=${pcfiledir}/../../../libswscale
-includedir=/Users/ns/Downloads/tvos.mpv.player-master/contrib/FFmpeg
+includedir=/Users/ns/Documents/GitHub/playerPublic/contrib/FFmpeg
 
 Name: libswscale
 Description: FFmpeg image rescaling library

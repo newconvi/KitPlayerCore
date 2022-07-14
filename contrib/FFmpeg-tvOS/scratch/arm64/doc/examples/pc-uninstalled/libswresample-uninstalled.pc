@@ -1,7 +1,7 @@
 prefix=
 exec_prefix=
 libdir=${pcfiledir}/../../../libswresample
-includedir=/Users/ns/Downloads/tvos.mpv.player-master/contrib/FFmpeg
+includedir=/Users/ns/Documents/GitHub/playerPublic/contrib/FFmpeg
 
 Name: libswresample
 Description: FFmpeg audio resampling library

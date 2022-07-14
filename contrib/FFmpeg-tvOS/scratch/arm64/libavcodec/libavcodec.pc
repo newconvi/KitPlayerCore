@@ -1,7 +1,7 @@
-prefix=/Users/ns/Downloads/tvos.mpv.player-master/contrib/FFmpeg-tvOS/thin/arm64
+prefix=/Users/ns/Documents/GitHub/playerPublic/contrib/FFmpeg-tvOS/thin/arm64
 exec_prefix=${prefix}
-libdir=/Users/ns/Downloads/tvos.mpv.player-master/contrib/FFmpeg-tvOS/thin/arm64/lib
-includedir=/Users/ns/Downloads/tvos.mpv.player-master/contrib/FFmpeg-tvOS/thin/arm64/include
+libdir=/Users/ns/Documents/GitHub/playerPublic/contrib/FFmpeg-tvOS/thin/arm64/lib
+includedir=/Users/ns/Documents/GitHub/playerPublic/contrib/FFmpeg-tvOS/thin/arm64/include
 
 Name: libavcodec
 Description: FFmpeg codec library
@@ -9,6 +9,6 @@ Version: 59.38.100
 Requires: libswresample >= 4.8.100, libavutil >= 57.29.100
 Requires.private: 
 Conflicts:
-Libs: -L${libdir}  -lavcodec -liconv -lm -pthread -lz -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo
+Libs: -L${libdir}  -lavcodec -pthread -liconv -lm -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo
 Libs.private: 
 Cflags: -I${includedir}
