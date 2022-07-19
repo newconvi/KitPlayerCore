@@ -17,8 +17,10 @@ THIN=`pwd`/$FAT/"thin"
 
 CONFIGURE_FLAGS="--enable-cross-compile --disable-debug --disable-programs --disable-indev=avfoundation \
 --disable-doc --enable-pic --disable-shared --enable-static --enable-videotoolbox --disable-audiotoolbox --disable-encoders \
---disable-decoders --enable-decoder=aac --enable-decoder=pcm* --enable-decoder=ac3* --enable-decoder=eac3* --enable-decoder=mp3 --enable-decoder=vp* --enable-decoder=h264 --enable-decoder=hevc --enable-decoder=opus --enable-decoder=mpeg4* \
---disable-hwaccels --enable-hwaccel=h263_videotoolbox --enable-hwaccel=hevc_videotoolbox --enable-hwaccel=mpeg4_videotoolbox --enable-hwaccel=vp9_videotoolbox --enable-hwaccel=h264_videotoolbox"
+--disable-decoders --enable-decoder=aac --enable-decoder=pcm* --enable-decoder=ac3* --enable-decoder=eac3* --enable-decoder=mp3 --enable-decoder=vp* --enable-decoder=h264 --enable-decoder=hevc --enable-decoder=opus --enable-decoder=mpeg4* --enable-decoder=flac --enable-decoder=pgssub --enable-decoder=ass --enable-decoder=subrip --enable-decoder=ssa \
+--disable-hwaccels --enable-hwaccel=h263_videotoolbox --enable-hwaccel=hevc_videotoolbox --enable-hwaccel=mpeg4_videotoolbox --enable-hwaccel=vp9_videotoolbox --enable-hwaccel=h264_videotoolbox \
+--disable-demuxers --enable-demuxer=aac --enable-demuxer=flac --enable-demuxer=live_flv --enable-demuxer=ac3 --enable-demuxer=truehd --enable-demuxer=flv --enable-demuxer=rtp --enable-demuxer=rtsp --enable-demuxer=ogg --enable-demuxer=m4v --enable-demuxer=matroska --enable-demuxer=pcm* --enable-demuxer=h263 --enable-demuxer=h264 --enable-demuxer=h261 --enable-demuxer=mov --enable-demuxer=wav --enable-demuxer=mp3 --enable-demuxer=hevc --enable-demuxer=hls --enable-demuxer=webvtt --enable-demuxer=mpegps --enable-demuxer=mpegts --enable-demuxer=srt --enable-demuxer=ass --enable-demuxer=dvbsub --enable-demuxer=dvbtxt --enable-demuxer=eac3 --enable-demuxer=av1 --enable-demuxer=avi \
+--disable-muxers"
 
 # avresample
 #CONFIGURE_FLAGS="$CONFIGURE_FLAGS --enable-avresample"

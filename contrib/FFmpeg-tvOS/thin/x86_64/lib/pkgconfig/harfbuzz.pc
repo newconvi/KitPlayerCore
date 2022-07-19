@@ -1,0 +1,13 @@
+prefix=/Users/ns/Documents/GitHub/playerPublic/contrib/lib
+exec_prefix=/Users/ns/Documents/GitHub/playerPublic/contrib/lib
+libdir=/Users/ns/Documents/GitHub/playerPublic/contrib/lib/lib
+includedir=/Users/ns/Documents/GitHub/playerPublic/contrib/lib/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library
+Version: 1.2.3
+
+Libs: -L${libdir} -lharfbuzz
+Libs.private:    
+Requires.private:  
+Cflags: -I${includedir}/harfbuzz

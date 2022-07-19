@@ -5,8 +5,8 @@ includedir=/Users/ns/Documents/GitHub/playerPublic/contrib/FFmpeg-tvOS/thin/x86_
 
 Name: libswscale
 Description: FFmpeg image rescaling library
-Version: 6.8.100
-Requires: libavutil >= 57.29.100
+Version: 5.5.100
+Requires: libavutil >= 56.31.100
 Requires.private: 
 Conflicts:
 Libs: -L${libdir}  -lswscale -lm

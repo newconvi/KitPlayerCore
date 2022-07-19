@@ -1,0 +1,13 @@
+prefix=/Users/ns/Documents/GitHub/playerPublic/contrib/lib
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libass
+Description: LibASS is an SSA/ASS subtitles rendering library
+Version: 0.16.0
+Requires: 
+Requires.private: harfbuzz >= 1.2.3, fribidi >= 0.19.1, freetype2 >= 9.17.3
+Libs: -L${libdir} -lass 
+Libs.private: -liconv  -framework CoreText -framework CoreFoundation
+Cflags: -I${includedir}

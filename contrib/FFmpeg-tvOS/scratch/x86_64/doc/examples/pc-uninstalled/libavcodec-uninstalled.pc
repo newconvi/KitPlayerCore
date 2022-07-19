@@ -5,8 +5,8 @@ includedir=/Users/ns/Documents/GitHub/playerPublic/contrib/FFmpeg
 
 Name: libavcodec
 Description: FFmpeg codec library
-Version: 59.38.100
-Requires:  libswresample >= 4.8.100,  libavutil >= 57.29.100
+Version: 58.54.100
+Requires:  libswresample >= 3.5.100,  libavutil >= 56.31.100
 Conflicts:
 Libs: -L${libdir} -Wl,-rpath,${libdir} -lavcodec -pthread -liconv -lm -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo
 Cflags: -I${includedir}

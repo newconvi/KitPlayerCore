@@ -63,14 +63,14 @@
 #define HAVE_LIBSMBCLIENT 0
 #define HAVE_LUA 0
 #define HAVE_JAVASCRIPT 0
-#define HAVE_LIBASS 0
-#define HAVE_LIBASS_OSD 0
-#define HAVE_DUMMY_OSD 1
+#define HAVE_LIBASS 1
+#define HAVE_LIBASS_OSD 1
+#define HAVE_DUMMY_OSD 0
 #define HAVE_ZLIB 1
 #define HAVE_LIBBLURAY 0
 #define HAVE_DVDNAV 0
 #define HAVE_CDDA 0
-#define HAVE_UCHARDET 0
+#define HAVE_UCHARDET 1
 #define HAVE_RUBBERBAND 0
 #define HAVE_ZIMG 0
 #define HAVE_LCMS2 0
@@ -160,8 +160,8 @@
 #define HAVE_MACOS_10_14_FEATURES 0
 #define HAVE_MACOS_MEDIA_PLAYER 0
 #define HAVE_MACOS_COCOA_CB 0
-#define CONFIGURATION "./waf configure --disable-cplayer --disable-lcms2 --disable-lua --enable-libmpv-static --enable-ios-gl --disable-libass --enable-lgpl --disable-android --disable-egl-android --disable-swift --out=/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/scratch/x86_64 --prefix=/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/thin/x86_64"
+#define CONFIGURATION "./waf configure --disable-cplayer --disable-lcms2 --disable-lua --enable-libmpv-static --enable-ios-gl --enable-lgpl --disable-android --disable-egl-android --disable-swift --out=/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/scratch/x86_64 --prefix=/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/thin/x86_64"
 #define MPV_CONFDIR "/Users/ns/Documents/GitHub/playerPublic/contrib/mpv-tvOS/thin/x86_64/etc/mpv"
-#define FULLCONFIG "aligned_alloc asm atomics audiounit bsd-fstatfs build-date cplugins debug-build drmprime dummy-osd fchmod ffmpeg gl glob glob-posix gnuc iconv ios-gl lgpl libav-any libavcodec libavdevice libavutil libdl libm libmpv-static optimize osx-thread-name plain-gl posix posix-or-mingw pthreads stdatomic tvos videotoolbox-hwaccel zlib"
+#define FULLCONFIG "aligned_alloc asm atomics audiounit bsd-fstatfs build-date cplugins debug-build drmprime fchmod ffmpeg gl glob glob-posix gnuc iconv ios-gl lgpl libass libass-osd libav-any libavcodec libavdevice libavutil libdl libm libmpv-static optimize osx-thread-name plain-gl posix posix-or-mingw pthreads stdatomic tvos uchardet videotoolbox-hwaccel zlib"
 
 #endif /* W_CONFIG_H_WAF */

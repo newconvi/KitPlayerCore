@@ -71,7 +71,7 @@ do
     echo $LDFLAGS
 
 #--enable-videotoolbox-gl
-    OPTION_FLAGS=" --disable-cplayer --disable-lcms2 --disable-lua --enable-libmpv-static --enable-ios-gl --disable-libass --enable-lgpl --disable-android --disable-egl-android --disable-swift \
+    OPTION_FLAGS=" --disable-cplayer --disable-lcms2 --disable-lua --enable-libmpv-static --enable-ios-gl --enable-lgpl --disable-android --disable-egl-android --disable-swift \
 --out=$SCRATCH/$ARCH --prefix=$THIN/$ARCH"
 
     export PKG_CONFIG_PATH="$CWD/FFmpeg-tvOS/thin/$ARCH/lib/pkgconfig"

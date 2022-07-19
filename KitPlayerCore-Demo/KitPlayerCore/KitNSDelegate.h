@@ -2,7 +2,7 @@
 //  KitNSDelegate.h
 //  KitPlayerCore
 //
-//  Created by ns on 2022/7/15.
+//  Created by ns(sjw) on 2022/7/15.
 //
 
 #import <Foundation/Foundation.h>

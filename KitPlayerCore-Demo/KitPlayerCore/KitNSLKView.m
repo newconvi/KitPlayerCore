@@ -4,7 +4,10 @@
 //
 //  Created by ns on 2022/7/14.
 //
-
+//Third Party Libraries Used by KitPlayerCore
+//This software uses libmpv and FFmpeg libraries from the under the LGPL
+//https://www.gnu.org/licenses/lgpl-2.1.html
+//source code: https://github.com/newconvi/KitPlayerCore
 #import "KitNSLKView.h"
 
 @implementation KitNSLKView
@@ -62,7 +65,9 @@
 //update rendered image in sub thread
 - (void)updateCBDraw {
     dispatch_async(drawQueue, ^{
-        [self display];
+        if (![NSThread isMainThread]) {
+            [self display];
+        }
     });
     dispatch_semaphore_wait(self.drawSem, DISPATCH_TIME_FOREVER);
 }
